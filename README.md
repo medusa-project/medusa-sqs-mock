@@ -9,7 +9,7 @@ $ git clone https://github.com/medusa-project/medusa-sqs-mock.git
 $ cd medusa-sqs-mock
 
 ## Invoke
-###build
+### build
 ```docker build -t sqs-mock .```
-###run
+### run
 ```docker run --name sqs-mock -p 9324:9324 -d sqs-mock```
